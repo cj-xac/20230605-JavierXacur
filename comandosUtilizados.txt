@@ -1,0 +1,36 @@
+249  git init
+  250  git remote add origin https://github.com/cj-xac/20230605-JavierXacur.git
+  251  git branch -m master main
+  252  git push -u origin main
+  253  git push origin --delete master
+  254  git remote add origin https://github.com/cj-xac/20230605-JavierXacur.git
+  255  git branch -M main
+  256  git push -u origin main
+  257  touch comandos.txt main.js index.html
+  258  git add .
+  259  git commit -m "commit 01 de JavierXacur"
+  260  git push origin main
+  261  git checkout -b feature01
+  262  mkdir Terminal Hardware
+  263  cd Terminal && touch resumen.txt
+  264  cd .. && cd Hardware && touch resumen.txt
+  265  git add .
+  266  git commit "commit 02 de JavierXacur"
+  267  git commit -m "commit 02 de JavierXacur"
+  268  git push origin feature01
+  269  git add Terminal
+  270  cd ..
+  271  git add Terminal
+  272  git commit -m "commit 03 de JavierXacur"
+  273  git push origin feature01
+  274  git checkout -b feature02
+  275  git add .
+  276  git commit -m "commit 04 de JavierXacur"
+  277  git push origin feature02
+  278  git checkout main
+  279  git mv comandos.txt comandosUtilizados.txt
+  280  history
+281 git add .
+282 git commit "commit 05 de JavierXacur"
+283 git push origin main
+
